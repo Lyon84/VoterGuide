@@ -1,0 +1,103 @@
+body {
+	/* background-image: url('bg.jpg'); */
+	background-size: cover;
+	background-attachment: fixed;
+	color:black;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	/* https://www.flvto.biz/ */
+}
+
+nav ul{
+	list-style: none;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+		font-family: 'Oswald', sans-serif;
+		width: 100%;
+		text-align: center;
+		z-index: 1;
+		position: fixed;
+		font-size: 160%;
+		left: 0;
+		right: 0;
+		top: 0;
+		background-color: rgba(0, 0, 0, .75);
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 3% 3% 3% 3%;
+	display: block;
+	text-align: center;
+
+}
+
+nav a:hover{
+	color: white;
+}
+
+nav li:hover{
+	border-radius: 5%;
+	background-color: grey;
+	color: white;
+}
+
+.centertext
+{
+	text-align: left;
+	padding: 1% 1% 1% 1%;
+	/* font-size */
+	margin: 0 auto;
+	width: 80%;
+	background-color: rgb(255, 255, 255, .95);
+
+}
+
+.imgtext
+{
+	text-align:center;
+
+}
+.imgcenter{
+
+
+}
+.headertext
+{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 200%;
+	padding: 1% 1% 1% 1%;
+	color: white;
+	width:80%;
+	background-color: rgba(51, 149, 130, .75);
+
+}
+
+.style1
+{
+	font-size: 180%;
+}
+
+
+.imgstyle
+{
+	display:block;
+	margin: 0 auto;
+	max-height: 40%;
+	max-width: 50%;
+}
